@@ -1,0 +1,56 @@
+
+.galery {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax (200px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+img {
+    width: 20%;
+    height: 15%;
+    border-radius: 8px;
+    transition: transform 0,2s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+h1 {
+    color: #b90000;
+    text-align: center;
+    height: 35px;
+}
+h2 {
+    color: #b90000;
+    text-align: center;
+    height: 130px;
+}
+h3 {
+    color: #b90000;
+}
+body {
+    background-image:url('fundodark.jpg');
+    background-size: cover;
+    font-family: 'Monaco', monospace;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+    color: blue;
+    height: 20px;
+}
+li {
+    display: inline;
+}
